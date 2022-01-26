@@ -1,0 +1,214 @@
+#logo-black {
+    width: 225px;
+    margin: auto;
+}
+
+#logo-white {
+    width: 225px;
+    margin: auto;
+}
+
+* {
+    font-family: 'Catamaran', 'san-serif';
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 24px;
+}
+
+p {
+    padding: 20px;
+}
+
+nav.navigation ul li {
+    display: grid;
+    justify-content: center;
+    font-size: 24px;
+}
+
+#portrait img {
+    max-width: 50%;
+    justify-content: left;
+    margin: auto;
+    display: grid;
+    border-radius: 16px;
+}
+
+.body-text {
+    max-width: 80%;
+    margin: auto;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Contact rules */
+
+.contact-container {
+    margin: auto;
+    padding: 0 15px 0 15px;
+}
+
+legend {
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: default;
+    margin: auto;
+}
+
+label {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: default;
+    padding: 0 10px 0 0;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+textarea {
+    background-color: #eeeeee;
+    border: 3px solid #f1f1f1;
+    border-radius: 5px;
+    margin: 8px 0;
+    height: 100px;
+    width: 100%;
+}
+
+textarea:focus {
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #262626;
+    }
+
+    header {
+        background: #262626;
+    }
+
+    #logo-black {
+        display: none;
+    }
+
+    #logo-white {
+        display: block;
+    }
+
+    nav li {
+        color: #fdfdfd;
+        background: #262626;
+    }
+
+    nav ul {
+        background: #262626;
+    }
+
+    nav ul li {
+        background: #262626;
+    }
+
+    nav ul li a {
+        color: #fdfdfd;
+    }
+
+    nav li:hover, nav li:focus-within {
+        background: #262626;
+    }
+
+    h1 {
+        color: #fdfdfd;
+    }
+
+    p {
+        color: #fdfdfd;
+    }
+
+    h2 {
+        color: #fdfdfd;
+    }
+
+    legend {
+        color:#fdfdfd;
+    }
+
+    label {
+        color:#fdfdfd;
+    }
+
+    input {
+        color:#000000;
+        background-color: #b7b7b7;
+    }
+
+    input:focus {
+        border: 2px solid #fdfdfd;
+    }
+
+    textarea {
+        background-color: #b7b7b7;
+        border: 3px solid #b7b7b7;
+    }
+
+    textarea:focus {
+        border: 2px solid #fdfdfd;
+    }
+
+    input[type=submit] {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+    input[type=submit]:hover {
+        opacity: 0.8;
+    }
+
+    footer {
+        color: #fdfdfd;
+    }
+}
